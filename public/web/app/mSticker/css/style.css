@@ -1,0 +1,459 @@
+body{
+  font-size: 16px;
+  /*font-family: 'Point';*/
+  font-family: 'Maven Pro';
+  font-style: normal;
+}
+body.bn{
+  font-size: 16px;
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+}
+body.bn h2,body.bn h4{
+  font-family: "Shorif Sandwip";
+}
+.font_point{
+  font-family: 'Point';
+  font-style: normal;
+  font-weight: 600;
+}
+.font_maven{
+  font-family: 'Maven Pro';
+}
+
+
+/*::::::::headings and paragraph::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::;*/
+.first_header{
+  font-size: 560%;
+  font-weight: bold;
+  color: #e9bd32;
+}
+.second_header{
+  font-size: 350%;
+  font-weight: bold;
+}
+.second_header2{
+  font-size: 290%;
+  font-weight: bold;
+}
+.third_header{
+  font-size: 260%;
+  font-weight: bold;
+  color: white;
+}
+.forth_header{
+  font-size: 190%;
+  /*font-weight: bold;*/
+}
+.fifth_header{
+  font-size: 140%;
+  font-weight: bold;
+}
+.sixth_header{
+  font-size: 120%;
+  font-weight: 700;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+.first_para{
+  font-size: 130%;
+}
+.second_para{
+  font-size: 150%;
+  font-weight: bold;
+  color: black;
+}
+.third_para{
+  font-size: 110%; 
+}
+.fourth_para{
+  font-size: 82%;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+.green_text{
+  font-size: 115%;
+  font-weight: bold;
+  color: #22c75e;
+}
+.black_text{
+  color:black;
+}
+.orange_text{
+  color: #ffa54f;
+}
+.white_text{
+  color: white;
+}
+.gray_text{
+  color: #707070;
+}
+.dark_gray_text{
+  color: #666565;
+}
+
+/*::::::::::::::::::::::::::;*/
+.no_btm_margin{
+  margin-bottom: 0px;
+}
+.minus_10_top_margin{
+  margin-top: -10px;
+}
+/*:::::::::::::::::::: hr ::::::::::::::::::::::::;*/
+.left_hr{
+  border: 1px solid #d4e3f8;
+  width: 75%;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.center_hr{
+  border: 1px solid #d4e3f8;
+  width: 30%;
+  /*margin-left: 0px;*/
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.dark_hr{
+  border-top: 1px solid #313131;
+}
+/*:::::::::::button::::::::::::*/
+/*::::::::::::::::::::::::::::;*/
+.button_yellow{
+  background: linear-gradient(to right, #e99503 0%, #fcc204 100%);
+  font-size: 200%;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #181818;
+  border-radius: 40px;
+}
+.button_yellow:hover,.button_yellow:active:focus,.button_yellow:focus{
+  background: linear-gradient(to right, #e99503 0%, #fcc204 100%);
+  color: black;
+  outline: 0px;
+}
+
+.button_yellow2{
+  background: linear-gradient(to right, #e99503 0%, #fcc204 100%);
+  font-size: 160%;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #181818;
+  border-radius: 40px;
+  box-shadow: -5px 8px 3px -3px #565803;
+}
+.button_yellow2:hover,.button_yellow2:active:focus,.button_yellow2:focus{
+  background: linear-gradient(to right, #e99503 0%, #fcc204 100%);
+  color: black;
+  outline: 0px;
+  font-weight: 700;
+  box-shadow: -6px 9px 3px -3px #565803;
+}
+
+.button_green{
+  background: #17bb55;
+  font-size: 120%;
+  font-style: normal;
+  padding: 6px 20px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.button_green:hover,.button_green:active:focus, .button_green:focus{ 
+  background: #1cb054;
+  color: white;
+  outline: 0px;
+}
+
+.button_red{
+  background: #e21a22;
+  color: white;
+  font-size: 95%;
+  border: none;
+  padding: 12px 18px;
+  font-weight: 700;
+  font-style: normal;
+}
+.button_red:hover{
+  background: #e21a22;
+  color: white;
+}
+
+#return_to_top {
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #e4a630;
+  color: white;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+}
+#return_to_top:hover {
+  background-color: #f6c260;
+}
+#return_to_top:hover i{
+  color: green;
+}
+/*::::::::::::::::::: div :::::::::::::::::::::::;*/
+.content{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 180px;
+}
+.popular_content{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.all_pupular_stkr_pack{
+  width: 100%;
+  height: 665px;
+  /*overflow: scroll;*/
+  overflow-y: hidden;
+}
+.footer_p{
+  padding-top: 10px;
+}
+/*::::::::::::::::::: ul li :::::::::::::::::::::::;*/
+ul{
+  padding: 10px 0px 0px 0px;
+}
+ul li{
+  list-style-type: none;
+  display:inline;
+  padding-right: 25px;
+  /*line-height: 30px;*/
+}
+
+/*ul.ul_in_line{
+  padding-left: 0px;
+  padding-top: 20px;
+}
+ul.ul_in_line li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 15px;
+}*/
+/*:::::::::::::::::::::::: textarea and input field ::::::::::::::::::::::::::::::;*/
+/*.form-group {
+  margin-bottom: 4px;
+}
+.form-control {
+    padding: 22px 12px;
+}
+::placeholder{
+  color: #676565 !important;
+}
+input[type=text],input[type=email],textarea{
+  background: #313131 !important;
+  color: #8c8b8b;
+  border: none !important;
+}*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+.msticker_for_whatsapp{
+  background-image: url("../images/msticker_for_whatsapp/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+  background-size:cover;
+  background-size: 100% 100%;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.msticker_for_whatsapp h3{
+  margin-top: -25px;
+}
+.msticker_for_whatsapp p{
+  padding-top: 30px;
+  padding-bottom: 48px;
+}
+.msticker_for_whatsapp h4{
+  padding-top: 7px;
+}
+.msticker_for_whatsapp .img_mobile{
+  padding-top: 8%;
+}
+.msticker_for_whatsapp .button_green{
+  margin-right: -14%;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+
+.about_msticker{
+  background-image: url("../images/about/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /*background-size:cover;*/
+  background-size: 100% 100%;
+  padding-top: 35px;
+  padding-bottom: 90px;
+}
+.about_msticker .orange_text{
+  margin-top: -10px;
+}
+.about_msticker .img_mobile{
+  padding-top: 18%;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+
+.sticker_slider{
+  background-image: url("../images/sticker_slider/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+  /*background-size:cover;*/
+  background-size: 100% 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+
+.feature_of_msticker{
+  /*background-image: url("../images/feature/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;*/
+   /*background-size:cover;*/
+  background-color: #f0f5fb; 
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+
+.popular_msticker_pack{
+  /*background-image: url("../images/popular_pack/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;*/
+   /*background-attachment: fixed;*/
+   /*background-size:cover;*/
+  background-color: #fbf8ee;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.popular_msticker_pack .get_more_pack{
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.popular_msticker_pack img{
+  margin: 0 auto;
+  opacity: .7;
+}
+.popular_msticker_pack img:hover{
+  opacity: 1;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+
+.footer{
+  background: #1a1a1a;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.footer .miaki_img{
+  margin: 0 auto;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::::::::::::modal:::::::::::::::::::::::::;*/
+.modal-header {
+    background: #fec200;
+    border-radius: 6px;
+    }
+.modal-body{
+  background: #dde4ff;
+}    
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::::::::::::::::::::::::::::::: Slick ::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+.slider {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.slick-slide {
+  margin: 0px 0px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+  transform: scale(.8);
+}
+
+.slick-active {
+  opacity: .3;
+  transform: scale(.85);
+}
+
+.slick-current {
+  opacity: 1;
+  transform: scale(1);
+  
+  /*background-image: url("../images/image_slider/mobile.png");*/
+  /*padding: 5px;*/
+}
+
+.slick-center{
+  background-image: url("../images/sticker_slider/mobile.png");
+  background-size: 100% 100%;
+}
+.slick-center img{
+  width: 100%;
+  padding: 22px 8px 10px;
+  z-index: -99;
+  text-align: center;
+  border-radius: 35px;
+  transition: .5s;
+}
+
+.slick-dots{
+  display: none !important;
+}
+/*.slick-dots li button {
+  color: #bb0505;
+  background: #565656;
+}
+.slick-dotted.slick-slider {
+  padding-bottom: 5px;
+}*/

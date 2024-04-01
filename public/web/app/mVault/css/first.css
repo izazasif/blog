@@ -1,0 +1,981 @@
+body,p,h1,h2,h3,h4,h5,h6{
+	 font-family: "ClearGothicSerial";
+}
+
+
+/*first nav bar*/
+.navbar{
+	padding-top: 5px;
+	padding-bottom:90px;
+}
+
+.search-bttn{
+	margin-left: -3%;
+}
+
+.first-navbar{
+	margin-bottom: 0px;
+	background: #eaeaea;
+}
+
+.select_dropdown{
+	color:red !important;
+}
+
+.wrap{
+ 	position: relative;
+ }
+
+
+.navbar-right{
+	padding-top: 3%;
+}
+
+.first-navbar input[type=text]{
+	    border: 0px;
+	    background: white;
+	    height: 34px;
+	    width:250px;
+	    font-size: 12px;
+	    font-family: "ClearGothicSerial";
+	    color: rgb(149, 149, 149);
+}
+
+
+.first-navbar .search-bttn{
+	    border: 0px;
+	    height: 34px;
+}
+
+.first-navbar .search-bttn:hover{
+	    background-color: white;
+}
+
+.first-navbar .search-bttn i:hover{
+	    color:red;
+}
+
+.first-navbar img{
+	width:80%;
+}
+/*end of it*/
+
+
+/*second nav bar*/
+
+ .main-nav{
+ 	position: absolute;
+ 	top: 18%;
+ 	left: 18%;
+ 	background: white;
+ 	width: 64%;
+
+ }
+
+ .second_nav_bar i{
+ 	font-size: 34px;
+ }
+ .main-nav .col-md-12{
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+ .second_nav_icon{
+  	font-size: 36px;
+  }
+
+  .main-nav ul{
+  	border-bottom: 10px solid #f20a41;
+  	width:100%;
+  	background: linear-gradient(to bottom, #ffffff 40%, #e7e7e7 100%);
+  }
+
+  .main-nav ul li{
+  	width:123px;
+  	text-align: center;
+
+    /*padding-right:26px;*/
+  }
+
+ .second_nav_bar .border{
+   border-right:2px solid #d4d4d4;
+ }
+
+  .main-nav ul li:hover a p{
+  	/*background-color: yellow;*/
+  	color:red;
+  }
+ 
+ .main-nav ul li:hover a i{
+ 	/*background-color: red;*/
+ 	color:red;
+ }
+ 
+ .main-nav ul li:hover {
+ 	background-color: white;
+    /*border-bottom: 16px solid red;*/
+ 	/*color:red;*/
+ }
+
+ .main-nav .active-li{
+ 	background-color: white;
+ }
+
+  .main-nav .active-li a p,.main-nav .active-li a i{
+ 	color:red;
+ }
+
+ .main-nav ul li a p{
+ 	padding-top: 3px;
+  	font-size: 13px;
+  	font-family: "ClearGothicSerial";
+  	color: rgb(112, 112, 112);
+  }
+
+
+  .second-container-fluid{
+  	padding-left: 0px;
+  	padding-right: 0px;
+  }
+
+
+  .second-container-fluid h3{
+	  font-size: 40px;
+	  font-family: "ClearGothicSerial";
+	  color: rgb(255, 255, 255);
+	  font-weight: bold;
+	  line-height: 1.083;
+  }
+
+  .second-container-fluid p{
+	  font-size: 26px;
+	  font-family: "ClearGothicSerial";
+	  color: rgb(255, 255, 255);
+	  line-height: 1.083;
+  }
+
+
+/*end of it*/
+
+
+
+ /*start of service list*/
+
+.service{
+	background: #eaeaea;
+}
+
+ /*end of it*/
+ 
+
+
+/*start of award*/
+.award-title{
+
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "ClearGothicSerialBold";
+  color: rgb(0, 0, 0);
+  line-height: 0.978;
+  padding-top: 20px;
+}
+.award-content-all{
+   background: #ebebeb;
+   padding-left:0px;
+   padding-right:0px;
+   padding-bottom: 95px;
+}
+.award-content-part{
+  
+  padding:14px;	
+  padding-top:30px; 
+  background: #cccccc;
+  margin-top:35px;
+}
+.text{
+	padding-top:22px;
+}
+
+
+/*end of award*/
+
+
+/*.............................................................................*/
+
+/*start of contact*/
+.contact{
+	background:#ebebeb;
+	padding-bottom: 95px;
+}
+
+.contact-form{
+  padding:50px;
+}
+
+#name,#email,#subject,#Message{
+	width:100%;
+	margin-bottom: 50px;
+}
+
+input[type="text"],input[type="email"],#Message {
+
+  background-color : #f8f8f8; 
+
+}
+
+.content-heading{
+	font-family: "ClearGothicSerialBold";
+	color: rgb(73, 70, 70);
+	line-height: 0.978;
+	font-size: 36px;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.contact-sub-title{
+	font-size: 20px;
+}
+
+.send-btn{
+	background: #f8f8f8;
+}
+
+.keep-in-tuc{
+	font-family: "ClearGothicSerialBold";
+	color: rgb(73, 70, 70);
+	line-height: 0.978;
+	font-size: 36px;
+	font-weight: bold;
+	/*padding-left: 80px;*/
+	padding-top: 10px;
+}
+
+.underline-text{
+	border-bottom: solid 1px black;
+	width:100%;
+	display: inline;
+	padding-bottom: 3px;
+	font-weight: 600;
+}
+
+.underline-text-2{
+	padding-top: 40px;
+}
+.underline-text-p{
+	padding-top: 12px;
+}
+
+.keep-in-tuc-wrap{
+	padding-left: 90px;
+}
+
+.keep-in-tuc-wrap p{
+	line-height: 10px;
+}
+/*end of contact*/
+
+
+
+/*start of about us */
+.about-us{
+	padding-top: 90px;
+	background: #ebebeb;
+}
+
+.about-us h2{
+	font-size: 55px;
+	font-weight: bold;
+	/*font-family: "ClearGothicSerialBold";*/
+	font-weight: bold;
+	color: rgb(73, 70, 70);
+	line-height: 0.978;
+	padding-bottom: 35px;
+	padding-left: 30px;
+}
+.about-us-text p{
+	font-size: 22px;
+	/*font-family: "ClearGothicSerialLight";*/
+	color: rgb(73, 70, 70);
+	line-height: 1.364;
+	text-align: justify;
+	font-weight: 300;
+
+}
+
+.about-us-img{
+	  padding-left: 30px;
+}
+
+.about-us-text .second{
+	padding-top: 35px;
+}
+/*end of about us */
+
+
+
+/*start humble team slider*/
+
+  .slider {
+      width: 100%;
+      /*margin: 100px auto;*/
+  }
+
+  .slick-slide {
+    margin: 0px 10px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+  .slick-track{
+  	padding-bottom: 20px;
+  }
+
+  ul.slick-dots li{
+    margin:0px;
+  }
+
+  .slick-dots li button:before {
+    font-size:10px;
+   }
+
+  .humble-team{
+  	padding-top: 45px;
+  	padding-bottom: 45px;
+  	background: #ebebeb;
+  } 
+
+  .humble-team h2{
+    font-size: 55px;
+    font-family: "ClearGothicSerial";
+    color: rgb(73, 70, 70);
+    font-weight: bold;
+  }
+
+
+  .humble-team h3{
+    font-size: 26px;
+    font-family: "ClearGothicSerial";
+    color: rgb(113, 113, 113);
+    padding-bottom: 35px;
+  }
+
+
+  .humble-team h5{
+    font-size: 18px;
+    font-family: "ClearGothicSerial";
+    color: rgb(123, 123, 123);
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .humble-team h6{
+    font-size: 14px;
+    font-family: "ClearGothicSerial";
+    color: rgb(123, 123, 123);
+    padding-left: 15px;
+  }
+
+
+
+/*end of humble team*/
+
+/*start of bangla trac*/
+ .bangla-trac{
+  background-image: url("../image/about-us/about2.png");
+  background-color:#ebebeb;
+ }
+
+ .bangla-trac img{
+ 	padding-top:85px;
+ 	padding-bottom: 33px;
+ }
+
+ .bangla-trac p{
+ 	text-align: justify;
+ 	font-family: "ClearGothicSerial"; 	
+ 	font-weight: 300;
+    font-size: 22px;
+ 	color: rgb(73, 70, 70);
+ 	line-height: 1.364;
+ 	padding-bottom:70px;
+
+ }
+/*end of bangla trac*/
+
+
+
+/*start of powerful brand*/
+.powerful-brand{
+	background: #ebebeb;
+	background-image: url("../image/about-us/powerful.png");
+}
+
+.powerful-brand h1{
+	padding-top:255px;
+	padding-bottom: 20px;
+	color:white;
+	font-family: "ClearGothicSerialBold";
+	line-height: 0.982;
+	font-size: 76px;
+	/*font-weight:bold;*/
+}
+
+.powerful-brand h3{
+	color:#b3220f;
+	font-family: "ClearGothicSerialBold";
+	line-height: 0.982;
+	font-size: 32px;
+	font-weight:bold;
+	padding-bottom: 130px;
+}
+/*end of powerful brand*/
+
+
+
+
+/*start of mission-vision */
+   .mission-vision{
+   	background: #ebebeb;
+   }
+   .mission-vision .container{
+   	 padding-top:65px;
+   	 padding-bottom:70px;
+   }
+
+ .mission-text p,.vision-text p,.value-text p{
+ 	background:#d9d8d8;
+ 	padding:20px;
+    font-weight: 300;
+ }
+
+ .mission-vision h4{
+    font-size: 31px;
+    font-family: "ClearGothicSerial";
+    color: rgb(73, 70, 70);
+    font-weight: bold;
+    line-height: 0.776;
+    padding-left: 35%;
+ }
+ .more-btn{
+ 	text-align: center;
+ }
+
+ .mission-text button{
+ 	background: #fe9c0f;
+ 	color:white;
+ 	width:115px;
+ 	height:30px;
+ 	border-radius: 10px;
+ }
+
+  .vision-text button{
+ 	background: #15ab15;
+ 	color:white;
+ 	width:115px;
+ 	height:30px;
+ 	border-radius: 10px;
+ }
+
+  .value-text button{
+ 	background: #0f15fe;
+ 	color:white;
+ 	width:115px;
+ 	height:30px;
+ 	border-radius: 10px;
+ }
+/*end of mission-vision*/
+
+
+
+
+/*start of history*/
+.history{
+	background:#ebebeb;
+}
+
+.history .col-md-5{
+	padding-top: 30px;
+}
+
+
+.history h2{
+	  font-size: 52px;
+	  font-family: "ClearGothicSerial";
+	  color: rgb(73, 70, 70);
+	  font-weight: bold;
+	  line-height: 0.42;
+	  padding-top:10px;
+	  padding-bottom: 30px;
+}
+
+.history p{
+	    font-size: 18px;
+	    font-family: "ClearGothicSerial";
+	    color: rgb(73, 70, 70);
+	    line-height: 1.364;
+	    padding-bottom: 50px;
+	    text-align: justify;
+	    font-weight: 300;
+	    line-height: 1.364;
+}
+
+
+
+.history .more{
+	text-align: right;
+}
+
+.history .more button{
+ 	background: #15ab15;
+ 	color:white;
+ 	width:115px;
+ 	height:30px;
+ 	border-radius: 10px;
+ }
+/*end of history*/
+
+
+/*start of membership */
+ .membership{
+   padding-top:55px;
+   padding-bottom:100px;
+   background: #ebebeb;
+ }
+ .membership h1{
+ 	font-size: 50px;
+ 	font-family: "ClearGothicSerial";
+ 	color: rgb(73, 70, 70);
+ 	font-weight: bold;
+ 	line-height: 0.4;
+ 	padding-bottom: 55px;
+ }
+
+
+ .membership h2{
+ 	font-size: 30px;
+ 	font-family: "ClearGothicSerial";
+ 	color: rgb(73, 70, 70);
+ 	line-height: 1.2;
+ 	padding-bottom:35px;
+ 	margin-top: 0px; 
+ }
+
+  .membership ol li{
+ 	font-size: 20px;
+ 	font-family: "ClearGothicSerial";
+ 	color: rgb(73, 70, 70);
+ 	line-height: 1.25;
+ }
+/*end of membership*/
+
+
+/*.............................................................................................
+..................................................................................*/
+
+/*start of sms-service*/
+
+.sms-service{
+	padding-top:35px;
+	padding-bottom: 20px;
+}
+
+.sms-service .col-md-12{
+	background-image: url("../image/service/sms.png");
+	width:98%;
+	margin-left:1%;
+}
+
+.sms-service h2{
+	color:white;
+	padding-top:130px;
+	padding-bottom: 130px;
+	font-size: 26px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 0.978;
+}
+
+.sms-list p,.call-center-list p,.wap-list p,.ivr-list p{
+	font-weight: lighter;
+}
+/*end of sms-service*/
+
+/*.................................................*/
+/*start sms list*/
+.sms-list,.ivr-list,.call-center-list,.wap-list,.wap,.call-center,.ivr,.sms-service{
+	background: #ebebeb;
+	padding-top:35px;
+	padding-bottom: 20px;
+}
+.sms-list .content,.ivr-list .content,.call-center-list .content,.wap-list .content{
+	padding: 35px;
+	background: #ffffff;
+	border-radius: 0px 0px 10px 10px;
+	height:175px;
+}
+ .sms-list h4,.ivr-list h4,.call-center-list h4,.wap-list h4{
+	font-size: 26px;
+	font-family: "ClearGothicSerial";
+	color: rgb(73, 70, 70);
+	line-height: 0.8;
+	border-bottom: 1px solid black;
+	padding-bottom:14px;
+}
+.sms-list-first-row{
+	padding-bottom: 20px;
+}
+
+/*end of sms list*/
+
+
+/*start of ivr*/
+
+.ivr .col-md-12{
+	background-image: url("../image/service/ivr.png");
+	width:98%;
+	margin-left:1%;
+}
+
+.ivr h2{
+	color:white;
+	padding-top:130px;
+	padding-bottom: 130px;
+	font-size: 26px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 0.978;
+}
+/*end of ivr*/
+
+
+/*start of call-center*/
+
+.call-center .col-md-12{
+	background-image: url("../image/service/call-center.png");
+	width:98%;
+	margin-left:1%;
+}
+
+.call-center h2{
+	color:white;
+	padding-top:130px;
+	padding-bottom: 130px;
+	font-size: 26px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 0.978;
+}
+
+.call-center-list row{
+	padding-left: 35px;
+	padding-right: 35px;
+
+}
+/*end of call-center*/
+
+
+/*start of wap*/
+
+.wap .col-md-12{
+	background-image: url("../image/service/wap.png");
+	width:98%;
+	margin-left:1%;
+}
+
+.wap h2{
+	color:white;
+	padding-top:130px;
+	padding-bottom: 25px;
+	font-size: 26px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 0.978;
+}
+
+.wap h4{
+	color:white;
+	padding-bottom:80px;
+	font-size: 20px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 0.978;
+}
+/*end of wap*/
+
+
+/*
+...................................................................................
+...............................................................................................*/
+
+
+/*start footer::::::::::::::::::::::::*/
+
+.footer-wrap{
+	background: #282828;
+	padding-bottom: 25px;
+}
+
+.footer-wrap p{
+	color:#949393;
+}
+
+.footer-wrap h4,.footer-wrap h5{
+	color:white;
+}
+
+
+/*end footer:::::::::::::::::::::::::;*/
+
+
+
+
+
+/*start of footer:::::::::::::::::::*/
+.footer-wrap .first-col{
+	padding-top:45px;
+}
+
+.footer-wrap .first-col button{
+	height:34px;
+}
+
+.footer-wrap .middle-part{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.footer-wrap p{
+	  font-size: 16px;
+	  font-family: "ClearGothicSerial";
+	  color: rgb(160, 159, 159);
+	  line-height: 1.714;
+}
+
+.footer-wrap .search-iccn{
+	color:white;
+	
+}
+
+.footer-wrap .search-e button{
+	  background:#e21a22;
+	  border-radius: 0px;
+}
+
+.footer-wrap button{
+	  background:#e21a22;
+	  color:white;
+	  font-size: 13px;
+	  font-family: "ClearGothicSerial";
+	  color: rgb(255, 255, 255);
+	  font-weight: bold;
+}
+
+
+
+.footer-wrap .search-e input[type=text] {
+  border-radius: 0px;
+}
+
+.footer-wrap .second-col,.footer-wrap .thired-col,.footer-wrap .fourth-col,.footer-wrap .fifth-col{
+	padding-top:50px;
+}
+
+.footer-wrap .second-col h4{
+	font-size: 16px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.footer-wrap .second-col h4{
+	font-size: 16px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+/*.footer-wrap .second-col h5{
+	 font-size: 16px;
+	 font-family: "ClearGothicSerial";
+	 color: rgb(255, 255, 255);
+	 font-weight: bold;
+	 line-height: 1.323;
+	 margin-top: 0px;
+}*/
+
+.footer-wrap .second-col .image-right-cont{
+	   font-size: 10px;
+	   font-family: "ClearGothicSerial";
+	   color: rgb(103, 101, 101);
+}
+
+.footer-wrap .image-below-cont{
+	font-size: 16.5px;
+	font-family: "ClearGothicSerial";
+	color: rgb(160, 159, 159);
+	line-height: 1.455;
+	padding-bottom: 25px;
+}
+
+.footer-wrap .second-col a{
+	   font-size: 18px;
+	   font-family: "ClearGothicSerial";
+	   color: rgb(160, 159, 159);
+}
+
+.footer-wrap .second-col a i{
+	  font-size: 20px;
+	  color:red;
+}
+
+.thired-col h4 , .fourth-col h4 , .fifth-col h4{
+	font-size: 16px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.thired-col ul , .fourth-col ul , .fifth-col ul{
+	list-style: none;
+	padding-left:2px;
+}
+
+.thired-col ul li , .fourth-col ul li , .fifth-col ul li{
+	font-size: 14px;
+	font-family: "ClearGothicSerial";
+}
+
+.thired-col ul li a, .fourth-col ul li a, .fifth-col ul li a{
+	 color: rgb(160, 159, 159);
+}
+
+.footer-wrap .fifth-col input[type=text],.footer-wrap .fifth-col input[type=email],.footer-wrap .fifth-col textarea {
+  background: #313131;
+  color:#797777;
+  border: 1px solid #464646;
+}
+
+.footer-wrap .fifth-col button{
+	width:85px;
+	height:40px;
+	font-size: 13px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border:1px solid #464646;
+	margin-top: 15px;
+}
+.footer-wrap .thired-col h4.social-media{
+	padding-top: 45px;
+}
+
+.footer-wrap h4.social-media{
+	padding-bottom: 10px;
+}
+
+.thired-col  ul.social-media-list li {
+    float: left;
+    padding-right:5px;
+}
+
+.footer-wrap .fifth-col h4{
+	padding-bottom: 25px;
+}
+.footer-wrap .fifth-col button:hover{
+	background: #e21a22;
+}
+
+.footer-wrap .fifth-col .form-group{
+	margin-bottom: 8px;
+}
+/*end of footer::::::::::::::::::::*/
+
+
+.footer-end{
+	height:75px;
+	background:#1c1c1c;
+}
+
+
+
+
+/*..............................................................................
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+..............................................................................*/
+                     /* start of home*/
+
+.home-service{
+	background-color: #ebebeb;
+}
+
+.home-service .content{
+	margin-top:42px;
+	margin-bottom: 62px;
+	padding-top:35px;
+	padding-left:28px;
+	padding-right: 28px;
+	background-color: #e1e1e1;
+}
+
+.home-service .content h4{
+	padding-bottom: 35px;
+	font-size: 24px;
+	font-family: "ClearGothicSerial";
+	color: rgb(108, 104, 104);
+}
+
+.home-service .content img{
+	padding-bottom: 45px;
+}
+.home-service .content .read-more-btn button{
+	background-color: #a7a5a5;
+	color:white;
+	position: relative;
+	top: 17px;
+	font-size: 17px;
+	font-family: "ClearGothicSerial";
+	color: rgb(255, 255, 255);
+}
+
+.home-service .service-detail{
+   height:110px;
+}
+
+.home-service .service-detail p{
+   font-size: 17px;
+   font-family: "ClearGothicSerial";
+   color: rgb(108, 104, 104);
+}
+
+
+.Read_More {
+  font-size: 17px;
+  font-family: "ClearGothicSerial";
+  color: rgb(255, 255, 255);
+  line-height: 2.412;
+  text-align: center;
+  position: absolute;
+  left: 226px;
+  top: 1558.498px;
+  z-index: 69;
+}
+
+
+                      /*end of home*/
+/*...............................................................................
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+...............................................................................*/                      

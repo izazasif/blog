@@ -1,0 +1,410 @@
+body,h1,h2,h3,h4,h5,h6,p{
+  font-family: 'KongshoMJ';
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+   }
+
+.navbar{
+    background: #0c4544;
+    border: 1px solid black;
+    margin-bottom: 0px;
+}
+
+.padding-15-remove{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.navbar-right{
+  padding-top: 1%;
+  margin-right: 5%;
+}
+
+ul.navbar-right li a{
+    padding: 10px 8px !important;
+    color:white !important;
+    font-weight: bold;
+  }
+
+ul.navbar-right li a:hover{
+    color:#08efcf !important;
+  }
+
+ul.navbar-right li a.line_right:before {
+    content: ' ';
+    overflow: hidden;
+    width: 3px;
+    height: 13px;
+    float: right;
+    margin-top: 4px;
+    margin-left: 16px;
+    background: #189f9c;
+  }
+
+img.islam-img{
+  height:65px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::::::::::::::::slider div:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.slider_div .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.slider_div h1{
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.slider_div p{
+  font-size: 22px;
+  /*font-weight: bold;*/
+}
+
+.carousel-caption {
+    bottom: 300px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::::::::::::::::::Namaj Time::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.namaj_time{
+  background-image: url("../image-m/namaj_time_1_bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+  background-size:cover;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.namaj_moto .container-fluid{
+  padding-left: 0px;
+  padding-right:0px;
+}
+
+.namaj_time h3{
+  color:white;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+:::::::::::::::::::::Islamer Alo::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.islamer_alo{
+  background-image: url("../image-m/alo_bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /*background-size:cover;*/
+  background-size: 100% 100%;
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+
+.islamer_alo h1{
+  font-size: 52px;
+  font-weight: bold;
+  color: #032e2d;
+}
+
+.islamer_alo h4{
+  font-size: 32px;
+  color: #032e2d;
+}
+
+.islamer_alo button{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #0f8d80;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 35px;
+  margin-top:10px;
+}
+
+.islamer_alo button:hover{
+  background: #0a5a52 ;
+  }
+
+.islamer_alo button a:hover{
+  text-decoration: none;
+  color:white;
+  background: #0a5a52 ;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::Islamic Event:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.islamic_event{
+  background-image: url("../image-m/event-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /*background-size:cover;*/
+  background-size: 100% 100%;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.islamic_event .event-top{
+  background-image: url("../image-m/event-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+  /*background-size:cover;*/
+  background-size: 100% 100%;
+  padding-top: 170px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.islamic_event .event-top h1{
+  font-size: 42px;
+  font-weight: bold;
+  color: #032e2d;
+}
+
+.islamic_event .all_event img{
+  padding:20px;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::Characteristic:::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;*/
+
+.charactiristics{
+  background-image: url("../image-m/characteristics-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+  /*background-size:cover;*/
+  background-size: 100% 100%;
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+
+.charactiristics .col-md-4{
+  padding:2%;
+}
+
+.charactiristics h1{
+  font-weight: bold;
+  font-size: 48px;
+  color:#032e2d;
+}
+
+
+.footer-end1{
+  width: 100%;
+  height: 10px;
+  background: #0eb6a5;
+}
+
+.footer-end2{
+  width: 100%;
+  height: 55px;
+  background: #0c3f3e;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+::::::::::::::::::::::::::App Usages::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.app_usages{
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+.app_usages h1{
+  font-size: 42px;
+  font-weight: bold;
+  color: #032e2d;
+}
+.app_usages .slider{
+  margin-top: 35px;
+}
+
+
+/*....................................................
+media query start here:
+....................................................*/
+
+@media only screen and (max-width: 600px) {
+    img.islam-img {
+        height: 40px;
+    }
+    .navbar-toggle {
+        padding: 9px 10px;
+        margin-top: 3px;
+        margin-right: 24px;
+        margin-bottom: 2px;
+      }
+    .navbar{
+        min-height: 40px !important;
+      }
+    ul.navbar-right li a {
+          font-size: 12px;
+          padding: 4px 8px !important;
+        }
+
+    .islamer_alo {
+      padding-top: 25px
+    }
+
+    .islamer_alo h1{
+      font-size: 22px;
+    }
+    .islamer_alo h4{
+      font-size: 14px;
+      font-weight: bold
+    }
+    .islamer_alo button{
+      font-size: 12px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 35px
+    }
+
+    .namaj_time h3{
+      font-size: 18px;
+      color:white;
+    }
+
+    .islamic_event {
+      padding-top: 8px;
+      padding-bottom: 25px;
+    }
+    .islamic_event .event-top{
+      padding-top: 85px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    .islamic_event h1{
+      font-size: 22px !important;
+    }
+    .islamic_event .col-xs-4{
+      padding-left:3px !important;
+      padding-right:3px !important;
+    }
+    .islamic_event .all_event img {
+        padding: 0px;
+    }
+    .islamic_event .first_row{
+      margin-bottom: 8px;
+    }
+
+    .charactiristics {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .charactiristics h1 {
+        font-size: 20px;
+      }
+
+      .app_usages{
+        padding-top: 20px;
+        padding-bottom: 15px;
+      }
+      .app_usages h1{
+        font-size: 22px;
+        font-weight: bold;
+        color: #032e2d;
+      }
+      .app_usages .slider{
+        margin-top: 20px;
+      }
+
+      .slider_div h1{
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      .slider_div p{
+        font-size: 12px;
+        /*font-weight: bold;*/
+      }
+
+      .carousel-caption {
+          bottom: 40px;
+      }
+
+      .slick-arrow{
+        display: none !important;
+      }
+
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  /*right: 30px;*/
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#myBtn:hover a{
+  text-decoration: none;
+  color:#f2f2f2;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.download-link:hover, .download-link:visited, .download-link:active, .download-link:focus{
+	color: white;
+    text-decoration: none;
+}
+
+.slider {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #8c6ad0;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}

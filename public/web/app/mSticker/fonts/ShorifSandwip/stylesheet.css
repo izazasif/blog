@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Shorif Sandwip';
+    src: url('ShorifSandwip.eot');
+    src: url('ShorifSandwip.eot?#iefix') format('embedded-opentype'),
+        url('ShorifSandwip.woff2') format('woff2'),
+        url('ShorifSandwip.woff') format('woff'),
+        url('ShorifSandwip.ttf') format('truetype'),
+        url('ShorifSandwip.svg#ShorifSandwip') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

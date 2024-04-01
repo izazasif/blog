@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ClearGothicSerial';
+    src: url('ClearGothicSerial.eot');
+    src: url('ClearGothicSerial.eot?#iefix') format('embedded-opentype'),
+        url('ClearGothicSerial.woff2') format('woff2'),
+        url('ClearGothicSerial.woff') format('woff'),
+        url('ClearGothicSerial.ttf') format('truetype'),
+        url('ClearGothicSerial.svg#ClearGothicSerial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Bold.eot');
+    src: url('Point-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Point-Bold.woff2') format('woff2'),
+        url('Point-Bold.woff') format('woff'),
+        url('Point-Bold.ttf') format('truetype'),
+        url('Point-Bold.svg#Point-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Light.eot');
+    src: url('Point-Light.eot?#iefix') format('embedded-opentype'),
+        url('Point-Light.woff2') format('woff2'),
+        url('Point-Light.woff') format('woff'),
+        url('Point-Light.ttf') format('truetype'),
+        url('Point-Light.svg#Point-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Regular.eot');
+    src: url('Point-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Point-Regular.woff2') format('woff2'),
+        url('Point-Regular.woff') format('woff'),
+        url('Point-Regular.ttf') format('truetype'),
+        url('Point-Regular.svg#Point-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point Book';
+    src: url('Point-Book.eot');
+    src: url('Point-Book.eot?#iefix') format('embedded-opentype'),
+        url('Point-Book.woff2') format('woff2'),
+        url('Point-Book.woff') format('woff'),
+        url('Point-Book.ttf') format('truetype'),
+        url('Point-Book.svg#Point-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

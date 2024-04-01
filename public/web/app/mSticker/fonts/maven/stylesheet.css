@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('MavenProRegular.eot');
+    src: url('MavenProRegular.eot?#iefix') format('embedded-opentype'),
+        url('MavenProRegular.woff2') format('woff2'),
+        url('MavenProRegular.woff') format('woff'),
+        url('MavenProRegular.ttf') format('truetype'),
+        url('MavenProRegular.svg#MavenProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('MavenProMedium.eot');
+    src: url('MavenProMedium.eot?#iefix') format('embedded-opentype'),
+        url('MavenProMedium.woff2') format('woff2'),
+        url('MavenProMedium.woff') format('woff'),
+        url('MavenProMedium.ttf') format('truetype'),
+        url('MavenProMedium.svg#MavenProMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('MavenProBold.eot');
+    src: url('MavenProBold.eot?#iefix') format('embedded-opentype'),
+        url('MavenProBold.woff2') format('woff2'),
+        url('MavenProBold.woff') format('woff'),
+        url('MavenProBold.ttf') format('truetype'),
+        url('MavenProBold.svg#MavenProBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('MavenProBlack.eot');
+    src: url('MavenProBlack.eot?#iefix') format('embedded-opentype'),
+        url('MavenProBlack.woff2') format('woff2'),
+        url('MavenProBlack.woff') format('woff'),
+        url('MavenProBlack.ttf') format('truetype'),
+        url('MavenProBlack.svg#MavenProBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
